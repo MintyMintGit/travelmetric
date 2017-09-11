@@ -17,9 +17,8 @@
             <img class="center-block" src="/public/img/img.jpg">
         </div>
         <div class="col-md-6">
-            <a href="/">
-                <img src="/public/img/01-beautiful-white-cat-imagescar-wallpaper.jpg">
-            </a>
+
+            <a href="<?php echo site_url('home/notKnows') ?>"><img src="/public/img/01-beautiful-white-cat-imagescar-wallpaper.jpg"></a>
         </div>
 
     </div>
