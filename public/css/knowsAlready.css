@@ -1,0 +1,81 @@
+body {
+    font-family: AmazingGroteskBook, serif;
+    background: url("/public/img/knowsAlready.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+}
+/*@font-face {*/
+    /*font-family: AmazingGroteskLight;*/
+    /*src: url(/public/fonts/AmazingGrotesk/AmazingGroteskLight.otf);*/
+/*}*/
+@font-face {
+    font-family: AmazingGroteskBook;
+    src: url(/public/fonts/Book/AmazingGroteskBook.otf),
+    url(/public/fonts/Book/AmazingGrotesk.ttf),
+    url(/public/fonts/Book/AmazingGrotesk.woff),
+    url(/public/fonts/Book/AmazingGrotesk.woff2),
+    url(/public/fonts/Book/AmazingGrotesk.eot);
+}
+header .navbar.navbar-default {
+    background-image: none;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.col-centered {
+    text-align: center;
+}
+
+#specContainer {
+    position: absolute;
+}
+.textMargin {
+    margin-top: 160px;
+}
+.text1 {
+    text-shadow: 1.9px 2.3px 14.3px rgba(0, 0, 0, 0.35);
+    font-size: 48px;
+}
+.text2 {
+    font-size: 21px;
+    text-shadow: 1.9px 2.3px 14.3px rgba(0, 0, 0, 0.35);
+}
+.inputFirst {
+    width: 94%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 5.4px 5.9px 14.2px 1.8px rgba(0, 0, 0, 0.15);
+    font-size: 18px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 15px 13px;
+}
+button.specButton {
+    width: 169px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #00ccff;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    background-image: none;
+    border: none;
+}
+button.specButton:hover {
+    background-color: #00ccff;
+    color: #ffffff;
+}
+ul#ui-id-1 {
+    width: 300px!important;
+}
+.ui-helper-hidden-accessible {
+    display: none;
+}
+#ui-id-1 li {
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
