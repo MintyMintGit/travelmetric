@@ -1,0 +1,42 @@
+body {
+    font-family: AmazingGroteskBook, serif;
+    background: url(/public/img/map.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+}
+@font-face {
+    font-family: AmazingGroteskBook;
+    src: url(/public/fonts/Book/AmazingGroteskBook.otf),
+    url(/public/fonts/Book/AmazingGrotesk.ttf),
+    url(/public/fonts/Book/AmazingGrotesk.woff),
+    url(/public/fonts/Book/AmazingGrotesk.woff2),
+    url(/public/fonts/Book/AmazingGrotesk.eot);
+}
+header .navbar.navbar-default {
+    background-image: none;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+#specContainer {
+    position: absolute;
+}
+#page-wrap {
+    width: 800px;
+    margin: 0 auto;
+    height: 213px;
+}
+h1, h2 {
+    color: #000000;
+    text-align: center;
+}
+h1 {
+    font-size: 72px;
+    padding-top: 45%;
+}
+h2 {
+    font-size: 21px;
+}

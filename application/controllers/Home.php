@@ -36,4 +36,10 @@ class Home extends CI_Controller
         $this->load->view('footer', $data);
 
     }
+    public function theEnd() {
+        $this->load->helper('url');
+        $this->load->view('header');
+        $this->load->view('Home/theEnd');
+        $this->load->view('footer');
+    }
 }
