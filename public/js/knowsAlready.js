@@ -26,6 +26,6 @@ $(function ()
     $("#f_elem_city").autocomplete("option", "delay", 100);
     function getcitydetails(item){
         localStorage.setItem('knowsAlready', item);
-        window.href = location.href
+        location.href = window.location.protocol + "//" + window.location.host + "/Auth";
     }
 });
