@@ -1,0 +1,314 @@
+body {
+    font-family: AmazingGroteskBook, serif;
+}
+@font-face {
+    font-family: AmazingGroteskBook;
+    src: url(/public/fonts/Book/AmazingGroteskBook.otf),
+    url(/public/fonts/Book/AmazingGrotesk.ttf),
+    url(/public/fonts/Book/AmazingGrotesk.woff),
+    url(/public/fonts/Book/AmazingGrotesk.woff2),
+    url(/public/fonts/Book/AmazingGrotesk.eot);
+}
+.sign-up .spotify-logo {
+    width: 119px;
+    height: 19px;
+    background: url(/public/img/logo.png) transparent no-repeat center center;
+    background-size: contain;
+    display: block;
+    margin: 0 auto;
+    padding-top: 41px;
+}
+.l-signup-header {
+    padding-top: 31px;
+    padding-bottom: 26px;
+}
+.sign-up .btn {
+    margin-bottom: 14px;
+    position: relative;
+}
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+}
+.btn, .navbar .navbar-nav .navbar-btn {
+    padding: 17px 48px;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 18px 48px 16px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.sign-up .line-thru:before {
+    width: 40px;
+    height: 10px;
+    background-color: #fff;
+    content: '';
+    margin: -5px 0 0 -20px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+}
+.sign-up .line-thru {
+    display: block;
+    font-size: .875em;
+    margin-bottom: 1em;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.layout-signup .page-signup .signup-select, .layout-signup .page-signup section.register {
+    display: block!important;
+}
+.layout-signup .page-signup section.register .content {
+    padding-top: 0;
+}
+.layout-signup .content {
+    border-top: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+.specPadding1 {
+    padding-top: 82px;
+}
+.center {
+    text-align: center;
+}
+.sign-up h2 {
+    color: #1c1c1f;
+    margin-bottom: 1em;
+}
+.hdr-l, h3 {
+    font-size: 18px;
+}
+.hdr-jumbo, .hdr-l, .hdr-m, .hdr-sm, .hdr-xl, .hdr-xsm, .hdr-xxl, h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 0 0 .5em;
+    text-rendering: optimizelegibility;
+}
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.l-box-content {
+    margin: 0 auto;
+    max-width: 424px;
+}
+.reboot fieldset {
+    border: 0;
+    padding: 0;
+}
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em;
+}
+.list-unstyled, .nav-sub ul, .sign-up fieldset ul, .unstyled {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+.layout-signup fieldset li {
+    margin-bottom: 1em;
+}
+.sign-up fieldset li {
+    display: block;
+    margin-bottom: 18px;
+    text-align: left;
+}
+.reboot label {
+    color: #000000;
+    display: block;
+    font-size: .9375em;
+    text-align: left;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.reboot input[type=email], .reboot input[type=number], .reboot input[type=password], .reboot input[type=tel], .reboot input[type=text], .reboot textarea {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    padding: 1em .75em .6875em;
+    width: 100%;
+}
+.reboot input:not([type=radio]), .reboot textarea {
+    background-color: #fff;
+    border: 7px solid #dfe0e6;
+    color: #010101;
+    font-size: 14px;
+    line-height: normal;
+    margin: 0;
+    height: 3em;
+}
+.sign-up .controls-dob .dob {
+    text-transform: capitalize;
+}
+.reboot select {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #dfe0e6;
+    color: #88898c;
+    font-size: .9375em;
+    height: 3em;
+    margin: 0;
+    padding: .625em .625em .625em;
+    width: 100%;
+}
+.controls-day {
+    width: 85px;
+}
+.controls-year {
+    width: 106px;
+}
+.controls-month {
+    width: 190px;
+}
+#js-register-with-email input, #js-register-with-email select {
+    border-radius: 7px;
+}
+.sign-up .register-dob {
+    text-align: justify;
+    line-height: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign-up .controls-dob {
+    margin-bottom: 1em;
+}
+.layout-signup fieldset li {
+    margin-bottom: 1em;
+}
+.reboot .checkbox.control-inline, .reboot .radio.control-inline {
+    display: inline-block;
+}
+.reboot .checkbox, .reboot .radio {
+    padding-left: 20px;
+}
+.sign-up .checkbox, .sign-up .notice, .sign-up .secondary {
+    font-size: 12px;
+}
+.reboot .checkbox input[type=checkbox], .reboot .radio input[type=radio] {
+    float: left;
+    margin-left: -20px;
+    margin-top: 3px;
+}
+.reboot input[type=checkbox] {
+    background: 0 0;
+    border: none;
+    margin: .25em .5em 0 0;
+    padding: 0;
+}
+.reboot input:not([type=radio]), .reboot textarea    {
+    background-color: #fff;
+    border: 1px solid #dfe0e6;
+    color: #1c1c1f;
+    font-size: .9375em;
+    line-height: normal;
+    margin: 0;
+}
+.reboot input::-webkit-input-placeholder {color:#010101;}
+.reboot input::-moz-placeholder          {color:#010101;}/* Firefox 19+ */
+.reboot input:-moz-placeholder           {color:#010101;}/* Firefox 18- */
+.reboot input:-ms-input-placeholder      {color:#010101;}
+.btn, .navbar .navbar-nav .navbar-btn {
+    padding: 17px 48px;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 18px 48px 16px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: capitalize;
+    white-space: normal;
+}
+.sign-up .btn {
+    margin-bottom: 14px;
+}
+.btn-green, .btn-primary, .navbar .navbar-nav .btn-green, .navbar .navbar-nav .btn-primary {
+    color: #fff;
+    background-color: #00ccff;
+}
+.reboot .checkbox.control-inline+.checkbox.control-inline, .reboot .radio.control-inline+.radio.control-inline {
+    margin-left: 1em;
+}
+.text1 {
+    font-size: 48px;
+    text-shadow: 1.9px 2.3px 14.3px rgba(0, 0, 0, 0.35);
+    text-align: center;
+}
+.text2 {
+    font-size: 21px;
+    text-shadow: 1.9px 2.3px 14.3px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding-top: 31px;
+}
+#testSlider {
+    width: 67%;
+    position: relative;
+    padding: 0px 31px;
+}
+#firstDiv {
+    width: 300px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #00ccff;
+    position: absolute;
+    z-index: 100;
+}
+#secondDiv {
+    border-radius: 4px;
+    border: solid 1px #e8e8e8;
+    width: 80%;
+    height: 8px;
+    position: absolute;
+    right: 31px;
+}
+.fa.fa-facebook {
+    position: absolute;
+    left: 23px;
+    float: left;
+    top: 13px;
+    font-size: 25px;
+}
+#littleBorderFaceBook {
+    height: 48px;
+    width: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 54px;
+    top: 0px;
+}
+#register-email, #register-confirm-email, #register-password, #register-username {
+    width: 424px;
+}

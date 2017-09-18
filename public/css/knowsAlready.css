@@ -7,10 +7,6 @@ body {
     background-size: cover;
     color: #ffffff;
 }
-/*@font-face {*/
-    /*font-family: AmazingGroteskLight;*/
-    /*src: url(/public/fonts/AmazingGrotesk/AmazingGroteskLight.otf);*/
-/*}*/
 @font-face {
     font-family: AmazingGroteskBook;
     src: url(/public/fonts/Book/AmazingGroteskBook.otf),
