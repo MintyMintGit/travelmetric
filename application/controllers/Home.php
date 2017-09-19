@@ -8,9 +8,10 @@ class Home extends CI_Controller
     public function index()
     {
         $this->load->helper('url');
+        $data['js_to_load'] = "home.js";
         $this->load->view('header');
         $this->load->view('Home/index');
-        $this->load->view('footer');
+        $this->load->view('footer', $data);
     }
 
     public function notKnows()
