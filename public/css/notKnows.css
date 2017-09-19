@@ -1,0 +1,80 @@
+body {
+    font-family: AmazingGroteskBook, serif;
+    background: none;
+    color: #000000;
+}
+header {
+    background: url(/public/img/notKnows.png) no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#logo {
+    margin-top: 26px;
+    margin-left: 104px;
+}
+header h1 {
+    padding-top: 62px;
+    font-size: 48px;
+}
+header h3, header h1 {
+    color: #ffffff;
+    text-align: center;
+}
+header h3 {
+    padding-top: 30px;
+    font-size: 21px;
+    padding-bottom: 71px;
+}
+.questionnaire h2 {
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 42px;
+}
+.someValues {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 21px;
+}
+.someValues p {
+    font-size: 18px;
+}
+.questionnaire .sliders {
+    width: 90%;
+    margin: 0 auto;
+}
+/*slider customization*/
+.ui-widget-header {
+    background: #ffffff !important;
+    border: 1px solid #e8e8e8 !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    background: #ffffff !important;
+    border: 1px solid #00c2f6 !important;
+}
+.ui-widget.ui-widget-content {
+    border: solid 1px #e8e8e8 !important;
+}
+.form-group {
+    padding-top: 30px;
+    margin: 0;
+}
+footer {
+    margin-bottom: 134px;
+    margin-top: 51px;
+}
+#submit, #submit:hover, #submit:focus, #submit:active {
+    width: 186px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #00ccff;
+    color: #ffffff;
+    background-image: none;
+}
+*:focus {
+    outline: none;
+}
