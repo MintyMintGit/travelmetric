@@ -21,6 +21,9 @@ header .navbar.navbar-default {
     border: none;
     box-shadow: none;
 }
+header {
+    background: none;
+}
 #specContainer {
     position: absolute;
 }

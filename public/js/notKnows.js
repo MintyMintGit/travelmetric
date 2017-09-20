@@ -52,5 +52,6 @@ $( document ).ready(function() {
        $('.questionnaire input').each(function(indx, element) {
            localStorage.setItem(element.id, element.id);
        });
+        location.href = window.location.protocol + "//" + window.location.host + "/auth";
     });
 });

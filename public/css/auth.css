@@ -30,20 +30,6 @@ body {
     color: #fff;
     background-color: #3b5998;
 }
-.btn, .navbar .navbar-nav .navbar-btn {
-    padding: 17px 48px;
-    font-size: 14px;
-    line-height: 1;
-    border-radius: 500px;
-    padding: 18px 48px 16px;
-    transition-property: background-color,border-color,color,box-shadow,filter;
-    transition-duration: .3s;
-    border-width: 0;
-    letter-spacing: 2px;
-    min-width: 160px;
-    text-transform: uppercase;
-    white-space: normal;
-}
 
 .btn-block {
     display: block;
@@ -162,7 +148,6 @@ fieldset {
     font-size: 14px;
     line-height: normal;
     margin: 0;
-    height: 3em;
 }
 .sign-up .controls-dob .dob {
     text-transform: capitalize;
@@ -255,9 +240,14 @@ fieldset {
 .sign-up .btn {
     margin-bottom: 14px;
 }
-.btn-green, .btn-primary, .navbar .navbar-nav .btn-green, .navbar .navbar-nav .btn-primary {
+#saveNewForm {
+    width: 100%;
     color: #fff;
     background-color: #00ccff;
+    border-radius: 20px!important;
+    font-family: AmazingGrotesk;
+    font-size: 18px;
+    height: 42px;
 }
 .reboot .checkbox.control-inline+.checkbox.control-inline, .reboot .radio.control-inline+.radio.control-inline {
     margin-left: 1em;
@@ -309,4 +299,7 @@ fieldset {
 }
 #register-email, #register-confirm-email, #register-password, #register-username {
     width: 424px;
+}
+#js-register-with-email {
+    margin-bottom: 146px;
 }
