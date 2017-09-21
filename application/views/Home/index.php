@@ -19,7 +19,7 @@
         <h1>Where would you like to go?</h1>
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-6 you">
-                <a href="#">
+                <a href="<?php echo base_url() ?>home/knowsAlready">
                     <div class="inner">
                         <table>
                             <tr>
@@ -32,7 +32,7 @@
                 </a>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-6 me">
-                <a href="#">
+                <a href="<?php echo base_url() ?>home/notKnows">
                     <div class="inner">
                         <table>
                             <tr>
@@ -83,7 +83,7 @@
         <h2>All your info & itineraries in one place!</h2>
         <div class="row">
             <div class="col-md-4 col-sm-4 col-xs-12">
-                <a href="#">
+                <a href="<?php echo base_url() ?>/auth" class="footerLink">
                     <div class="item">
                         <img src="/public/img/sf.jpg" alt="city-photo">
                         <h3>San Francisko</h3>
@@ -91,16 +91,16 @@
                 </a>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
-                <a href="#">
-                    <div class="item">
+                <a href="<?php echo base_url() ?>/auth" class="footerLink">
+                    <div class="item" class="footerLink">
                         <img src="/public/img/lv.jpg" alt="city-photo">
                         <h3>Las Vegas</h3>
                     </div>
                 </a>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
-                <a href="#">
-                    <div class="item">
+                <a href="<?php echo base_url() ?>/auth" class="footerLink">
+                    <div class="item" >
                         <img src="/public/img/bos.jpg" alt="city-photo">
                         <h3>Boston</h3>
                     </div>
@@ -109,7 +109,7 @@
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-4 col-xs-12">
-                <a href="#">
+                <a href="<?php echo base_url() ?>/auth" class="footerLink">
                     <div class="item">
                         <img src="/public/img/sf.jpg" alt="city-photo">
                         <h3>San Francisko</h3>
@@ -117,7 +117,7 @@
                 </a>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
-                <a href="#">
+                <a href="<?php echo base_url() ?>/auth" class="footerLink">
                     <div class="item">
                         <img src="/public/img/lv.jpg" alt="city-photo">
                         <h3>Las Vegas</h3>
@@ -125,7 +125,7 @@
                 </a>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
-                <a href="#">
+                <a href="<?php echo base_url() ?>/auth" class="footerLink">
                     <div class="item">
                         <img src="/public/img/bos.jpg" alt="city-photo">
                         <h3>Boston</h3>
