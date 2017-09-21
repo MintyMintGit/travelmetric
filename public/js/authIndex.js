@@ -7,7 +7,6 @@ $(document).ready(function () {
                 if(elem.parents('li').find('label.error').length < 1) {
                     elem.parents('li').append(label);
                 }
-
             }
         });
         var response = grecaptcha.getResponse();
@@ -16,9 +15,10 @@ $(document).ready(function () {
             event.preventDefault();
         else {
             $("#js-register-with-email input").each(function(indx, element){
-                //heights.push($(element).height());
-                console.log(element.name + " " + element.value);
-                //localStorage.setItem('email', email);
+                if(element.name == "gender" && element.checked == false) {
+                    return;
+                }
+                localStorage.setItem(element.name , element.value);
             });
         }
     });

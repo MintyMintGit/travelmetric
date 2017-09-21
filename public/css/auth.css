@@ -248,6 +248,7 @@ fieldset {
     font-family: AmazingGrotesk;
     font-size: 18px;
     height: 42px;
+    border: none;
 }
 .reboot .checkbox.control-inline+.checkbox.control-inline, .reboot .radio.control-inline+.radio.control-inline {
     margin-left: 1em;

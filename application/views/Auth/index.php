@@ -171,7 +171,7 @@
                                         </li>
                                     </ul>
                                 </fieldset>
-                                <input type="submit" id="saveNewForm" value="Sign up">
+                                <button type="submit" id="saveNewForm">Sign up</button>
                             </form>
                         </div>
                     </section>
