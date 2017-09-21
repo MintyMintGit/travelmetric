@@ -11,7 +11,6 @@ $(document).ready(function () {
         });
         var response = grecaptcha.getResponse();
         if (response.length == 0)
-        //reCaptcha not verified
             event.preventDefault();
         else {
             $("#js-register-with-email input").each(function(indx, element){
@@ -20,6 +19,7 @@ $(document).ready(function () {
                 }
                 localStorage.setItem(element.name , element.value);
             });
+            location.href = window.location.protocol + "//" + window.location.host + "/home/theEnd";
         }
     });
 

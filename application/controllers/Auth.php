@@ -51,10 +51,17 @@ class Auth extends CI_Controller {
 
     public function storeDataCSV()
     {
+        $savingArray = [];
+        foreach ($_POST as $key => $value) {
+            $value = $this->security->xss_clean($value);
+            $savingArray[$key] = $value;
+        }
+
         $fh = fopen("sample.csv", 'a+') or die("Can't create file");
-        $list = array(array('aaa1', 'bbb1', 'ccc1', 'dddd1'), array('123', '456', '789'), array('"aaa"', '"bbb"'));
-        foreach ($list as $item) {
-            fputcsv($fh, $item);
+        fputcsv($fh, $savingArray);
+        foreach ($savingArray as $key => $item) {
+            $str = $key . "," .$item;
+            fputcsv($fh, $str);
         }
         fclose($fh);
     }

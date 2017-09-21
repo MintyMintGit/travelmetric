@@ -43,8 +43,10 @@ class Home extends CI_Controller
 
     }
     public function theEnd() {
+        $this->load->helper('form');
+        $data['js_to_load'] = "theEnd.js";
         $this->load->view('header');
         $this->load->view('Home/theEnd');
-        $this->load->view('footer');
+        $this->load->view('footer', $data);
     }
 }
