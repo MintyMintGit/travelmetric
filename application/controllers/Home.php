@@ -29,11 +29,6 @@ class Home extends CI_Controller
         $this->load->view('footer', $data);
     }
 
-    public function saveNotKnows()
-    {
-
-    }
-
     public function knowsAlready()
     {
         $data['js_to_load'] = "knowsAlready.js";
