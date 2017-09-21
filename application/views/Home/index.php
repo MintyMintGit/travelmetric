@@ -1,7 +1,7 @@
 <link href="/public/css/home.css" rel="stylesheet">
 <div class="container-fluid header">
     <div class="container">
-        <a href="index.html">
+        <a href="#">
             <div class="logo"><img src="/public/img/logo_white.png" alt="Head Logo"></div>
         </a>
     </div>
