@@ -31,7 +31,7 @@
         <h2 for="formGroupExampleInput">Who are your travel companions?</h2>
         <div class="sliders" id="companions"></div>
         <input type="hidden" value="" id="companionsValue">
-        <div class="someValues">
+        <div class="someValues companionsValue">
             <p>A Group/ Friends </p>
             <p>Family/Kids</p>
             <p>Partner</p>
@@ -42,7 +42,7 @@
         <h2 for="formGroupExampleInput">I want Snow and Mountains</h2>
         <div class="sliders" id="snow"></div>
         <input type="hidden" value="" id="snowValue">
-        <div class="someValues">
+        <div class="someValues snowValue">
             <p>Not important </p>
             <p>Neutral</p>
             <p>Very important</p>
@@ -52,7 +52,7 @@
         <h2 for="formGroupExampleInput">I want History, Culture, Museums</h2>
         <div class="sliders" id="history"></div>
         <input type="hidden" value="" id="historyValue">
-        <div class="someValues">
+        <div class="someValues historyValue">
             <p>Not important </p>
             <p>Neutral</p>
             <p>Very important</p>
@@ -64,7 +64,7 @@
         <h2 for="formGroupExampleInput">I want Sunshine, Swimming, Beaches & Sand</h2>
         <div class="sliders" id="beaches"></div>
         <input type="hidden" value="" id="beachesValue">
-        <div class="someValues">
+        <div class="someValues beachesValue">
             <p>Not important </p>
             <p>Neutral</p>
             <p>Very important</p>
@@ -75,7 +75,7 @@
         <h2 for="formGroupExampleInput">I’m on a Budget. Help me Pinch my Pennies!</h2>
         <div class="sliders" id="budget"></div>
         <input type="hidden" value="" id="budgetValue">
-        <div class="someValues">
+        <div class="someValues budgetValue">
             <p>Not important </p>
             <p>Neutral</p>
             <p>Very important</p>

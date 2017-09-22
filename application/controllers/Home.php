@@ -8,7 +8,7 @@ class Home extends CI_Controller
     {
         parent::__construct();
 
-        $this->load->library('facebook');
+        $this->load->library('Facebook');
         $this->load->helper('url');
     }
 
