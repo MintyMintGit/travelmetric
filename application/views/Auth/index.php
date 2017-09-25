@@ -71,6 +71,21 @@
                                             <input type="password" id="register_password" name="register_password" required="required" autocomplete="off" maxlength="100" placeholder="Password">
                                         </li>
 
+                                        <li>
+                                            <label class="sr-only required" for="register_username">Full name</label>
+                                            <input type="text" id="register_username" name="register_username"
+                                                   required="required" autocapitalize="off" autocorrect="off"
+                                                   autocomplete="off" maxlength="30" placeholder="Full name"
+                                                   data-msg-minlength="Your username is too short."
+                                                   data-msg-remote="We're sorry, that username is not available."
+                                                   data-msg-required="Please choose a username."
+                                                   data-msg-nowhitespace="Spaces are not allowed in usernames."
+                                                   data-msg-forbiddenchars="Your username contains characters that we do not allow"
+                                                   data-rule-nowhitespace="true"
+                                                   data-rule-forbiddenchars="^[a-zA-Z0-9_\-\+]+$"
+                                                   data-rule-minlength="4">
+                                        </li>
+
                                         <li id="li-dob" class="controls-dob" data-error-age="Sorry, but you don't meet Spotify's age requirements.">
                                             <label for="register-age">Date of birth:</label>
                                             <div id="register-dob" class="register-dob">

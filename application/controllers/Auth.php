@@ -35,20 +35,6 @@ class Auth extends CI_Controller
         $this->load->view('footer');
     }
 
-    public function pageAfterFacebook()
-    {
-        $data['js_to_load'] = "pageAfterFacebook.js";
-        if ($this->facebook->is_authenticated()) {
-            $user = $this->facebook->request('get', '/me?fields=id,name,email');
-            if (!isset($user['error'])) {
-                $data['user'] = $user;
-            }
-        }
-        $this->load->view('header');
-        $this->load->view('Auth/pageAfterFacebook', $data);
-        $this->load->view('footer', $data);
-    }
-
     public function storeDataCSV()
     {
         $savingArray = [];
@@ -82,22 +68,25 @@ class Auth extends CI_Controller
                     $savingArray[7] = $value;
                     break;
                 case "register_password":
+                    $savingArray[8] = $value;
+                    break;
+                case "register_username":
                     $savingArray[9] = $value;
                     break;
                 case "register_dob_month":
-                    $savingArray[11] = $value;
+                    $savingArray[10] = $value;
                     break;
                 case "register_dob_day":
-                    $savingArray[12] = $value;
+                    $savingArray[11] = $value;
                     break;
                 case "register_dob_year":
-                    $savingArray[13] = $value;
+                    $savingArray[12] = $value;
                     break;
                 case "gender":
-                    $savingArray[14] = $value;
+                    $savingArray[13] = $value;
                     break;
                 case "thirdpartyemail":
-                    $savingArray[15] = $value;
+                    $savingArray[14] = $value;
                     break;
             }
         }
@@ -109,7 +98,9 @@ class Auth extends CI_Controller
             {
                 $savingArray[7] = $user['email'];
                 $savingArray[14] = $user['gender'];
+                $savingArray[9] = $user['name'];
             }
+            $this->facebook->destroy_session();
         }
 
         /*put empty values if key not exist*/
@@ -132,6 +123,7 @@ class Auth extends CI_Controller
             $headerString[] = "Know where you would like to go?";
             $headerString[] = "Email";
             $headerString[] = "password";
+            $headerString[] = "username";
             $headerString[] = "register_dob_month";
             $headerString[] = "register_dob_day";
             $headerString[] = "register_dob_year";

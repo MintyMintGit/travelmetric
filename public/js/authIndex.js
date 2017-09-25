@@ -20,7 +20,7 @@ $(document).ready(function () {
                 localStorage.setItem(element.name , element.value);
             });
             localStorage.setItem("register_dob_month" , $("#register_dob_month option:selected").text());
-
+            event.preventDefault();
             location.href = window.location.protocol + "//" + window.location.host + "/home/theEnd";
         }
     });
