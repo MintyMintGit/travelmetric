@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['facebook_app_id']              = '1592964317390441';
 $config['facebook_app_secret']          = 'dcd2721beaec96d7ee898168ab9fbb9e';
 $config['facebook_login_type']          = 'web';
-$config['facebook_login_redirect_url']  = 'http://travelmetric.loc/home/theEnd';
+$config['facebook_login_redirect_url']  = '/home/theEnd';
 $config['facebook_logout_redirect_url'] = 'http://travelmetric.loc';
 $config['facebook_permissions']         = array('public_profile', 'publish_actions', 'email');
 $config['facebook_graph_version']       = 'v2.6';

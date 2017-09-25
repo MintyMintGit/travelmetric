@@ -29,7 +29,7 @@
 <div id="someWidth" class="inputFirst"></div>
         </div>
         <div class="col-md-4 col-xs-4">
-            <button class="btn btn-default specButton" type="submit">See Metrics <i class="fa fa-angle-right" aria-hidden="true" style="margin-left: 7px;"></i></button>
+            <button class="btn btn-default specButton" id="getcitydetails" type="submit">See Metrics <i class="fa fa-angle-right" aria-hidden="true" style="margin-left: 7px;"></i></button>
         </div>
     </div>
 </div>

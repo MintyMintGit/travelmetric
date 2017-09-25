@@ -52,6 +52,8 @@ class Auth extends CI_Controller
     public function storeDataCSV()
     {
         $savingArray = [];
+
+
         foreach ($_POST as $key => $value) {
             $value = $this->security->xss_clean($value);
             switch ($key) {
@@ -97,6 +99,16 @@ class Auth extends CI_Controller
                 case "thirdpartyemail":
                     $savingArray[15] = $value;
                     break;
+            }
+        }
+
+        if ($this->facebook->is_authenticated())
+        {
+            $user = $this->facebook->request('get', '/me?fields=id,name,email,gender');
+            if (!isset($user['error']))
+            {
+                $savingArray[7] = $user['email'];
+                $savingArray[14] = $user['gender'];
             }
         }
 
