@@ -9,7 +9,7 @@
         <div class="container-fluid" id="specContainer">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">
-                    <img alt="Brand" id="logo" src="/public/img/logo_white.png" width="119px" height="19px">
+                    <img alt="Brand" id="logo" src="/public/img/logo.png" width="119px" height="19px">
                 </a>
             </div>
         </div>

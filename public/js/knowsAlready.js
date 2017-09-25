@@ -21,7 +21,8 @@ $(function ()
         },
         close: function () {
             $(this).removeClass("ui-corner-top").addClass("ui-corner-all");
-        }
+        },
+        appendTo: '#someWidth'
     });
     $("#f_elem_city").autocomplete("option", "delay", 100);
     function getcitydetails(item){

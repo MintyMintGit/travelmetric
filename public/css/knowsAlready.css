@@ -24,7 +24,9 @@ header .navbar.navbar-default {
 .col-centered {
     text-align: center;
 }
-
+.someCustomPadding {
+    padding-top: 5px;
+}
 #specContainer {
     position: absolute;
 }
@@ -60,18 +62,42 @@ button.specButton {
     color: #ffffff;
     background-image: none;
     border: none;
+    font-family: AmazingGroteskBook;
+    font-weight: 600;
 }
 button.specButton:hover {
-    background-color: #00ccff;
-    color: #ffffff;
+    background-color: #00ccff!important;
+    color: #ffffff!important;
+}
+.btn-default.active, .btn-default:active {
+    background-color: #00ccff!important;
+    color: #ffffff!important;
+    border-color: #dbdbdb!important;
 }
 ul#ui-id-1 {
-    width: 300px!important;
+    background-color: #ffffff;
+    color: black;
+    display: block!important;
+    list-style-type: none;
+    margin-top: 23px;
+    border-radius: 5px;
+    padding-left: 0px;
 }
 .ui-helper-hidden-accessible {
     display: none;
 }
+#someWidth {
+    background-color: transparent;
+    box-shadow: none;
+}
 #ui-id-1 li {
+    padding-left: 16px;
     margin-top: 8px;
     margin-bottom: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#ui-id-1 li:hover{
+    color: white;
+    background-color: #00c2f6;
 }

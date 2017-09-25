@@ -5,7 +5,7 @@
         <div class="container-fluid" id="specContainer">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">
-                    <img alt="Brand" src="/public/img/logo_white.png" width="119px" height="19px" style="margin-top: 41px; margin-left: 82px;">
+                    <img alt="Brand" src="/public/img/logo.png" width="119px" height="19px" style="margin-top: 41px; margin-left: 82px;">
                 </a>
             </div>
         </div>
@@ -22,10 +22,11 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4 col-xs-4">
-            <div class="text2 text-right">I am going to</div>
+            <div class="text2 text-right"><p class="someCustomPadding">I am going to</p></div>
         </div>
-        <div class="col-md-4 col-centered col-xs-4">
+        <div class="col-md-4 col-centered col-xs-4" >
             <input type="text" class="inputFirst" id="f_elem_city" >
+<div id="someWidth" class="inputFirst"></div>
         </div>
         <div class="col-md-4 col-xs-4">
             <button class="btn btn-default specButton" type="submit">See Metrics <i class="fa fa-angle-right" aria-hidden="true" style="margin-left: 7px;"></i></button>

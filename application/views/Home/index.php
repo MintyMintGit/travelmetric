@@ -2,7 +2,7 @@
 <div class="container-fluid header">
     <div class="container">
         <a href="#">
-            <div class="logo"><img src="/public/img/logo_white.png" alt="Head Logo"></div>
+            <div class="logo"><img src="/public/img/logo.png" alt="Head Logo"></div>
         </a>
     </div>
 </div>
@@ -19,7 +19,7 @@
         <h1>Where would you like to go?</h1>
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-6 you">
-                <a href="<?php echo base_url() ?>home/knowsAlready">
+                <a href="<?php echo base_url() ?>home/notKnows">
                     <div class="inner">
                         <table>
                             <tr>
@@ -32,7 +32,7 @@
                 </a>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-6 me">
-                <a href="<?php echo base_url() ?>home/notKnows">
+                <a href="<?php echo base_url() ?>home/knowsAlready">
                     <div class="inner">
                         <table>
                             <tr>

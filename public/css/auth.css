@@ -9,6 +9,10 @@ body {
     url(/public/fonts/Book/AmazingGrotesk.woff2),
     url(/public/fonts/Book/AmazingGrotesk.eot);
 }
+@font-face {
+    font-family: "Amazing-Grotesk-Demi";
+    src: url('/public/fonts/amazing-grotesk-demi.otf');
+}
 .sign-up .spotify-logo {
     width: 119px;
     height: 19px;
@@ -245,7 +249,7 @@ fieldset {
     color: #fff;
     background-color: #00ccff;
     border-radius: 20px!important;
-    font-family: AmazingGrotesk;
+    font-family: Amazing-Grotesk-Demi;
     font-size: 18px;
     height: 42px;
     border: none;

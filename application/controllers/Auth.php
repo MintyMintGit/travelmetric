@@ -79,14 +79,8 @@ class Auth extends CI_Controller
                 case "register_email":
                     $savingArray[7] = $value;
                     break;
-                case "confirm_email":
-                    $savingArray[8] = $value;
-                    break;
                 case "register_password":
                     $savingArray[9] = $value;
-                    break;
-                case "register_username":
-                    $savingArray[10] = $value;
                     break;
                 case "register_dob_month":
                     $savingArray[11] = $value;
@@ -125,9 +119,7 @@ class Auth extends CI_Controller
             $headerString[] = "All your info & itineraries in one place!";
             $headerString[] = "Know where you would like to go?";
             $headerString[] = "Email";
-            $headerString[] = "confirm_email";
             $headerString[] = "password";
-            $headerString[] = "username";
             $headerString[] = "register_dob_month";
             $headerString[] = "register_dob_day";
             $headerString[] = "register_dob_year";

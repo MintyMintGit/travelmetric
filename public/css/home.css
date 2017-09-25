@@ -31,12 +31,21 @@ h2{
     text-align: center;
     font-size: 30px;
 }
+.logo {
+    width: 119px;
+    height: 60px;
+}
 .header .logo img{
     width: 119px;
     height: 19px;
-    position: relative;
+    position: absolute;
     z-index: 999;
+    left: 10px;
+    margin-left: 109px;
     margin-top: 41px;
+}
+.specButton:hover {
+    border-color: #adadad;
 }
 .home-hero-bg {
     margin-top: -61px;

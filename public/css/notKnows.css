@@ -1,3 +1,11 @@
+@font-face {
+    font-family: AmazingGroteskBook;
+    src: url(/public/fonts/Book/AmazingGroteskBook.otf),
+    url(/public/fonts/Book/AmazingGrotesk.ttf),
+    url(/public/fonts/Book/AmazingGrotesk.woff),
+    url(/public/fonts/Book/AmazingGrotesk.woff2),
+    url(/public/fonts/Book/AmazingGrotesk.eot);
+}
 body {
     font-family: AmazingGroteskBook, serif;
     background: none;
@@ -32,6 +40,19 @@ header h3 {
     color: #000000;
     text-align: center;
     margin-bottom: 42px;
+}
+.questionnaire h2 {
+    font-weight:600;
+}
+a#select-button-signup-fb:hover {
+    opacity: 0.8;
+    color: white;
+}
+a#select-button-signup-fb,
+a#select-button-signup-fb:hover {
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 .someValues {
     display: flex;
@@ -74,6 +95,9 @@ footer {
     background-color: #00ccff;
     color: #ffffff;
     background-image: none;
+    font-family: AmazingGroteskBook;
+    font-size: 18px;
+    font-weight: 600;
 }
 *:focus {
     outline: none;

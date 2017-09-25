@@ -67,28 +67,8 @@
                                         </li>
 
                                         <li>
-                                            <label class="sr-only required" for="register-confirm-email">Confirm email</label>
-                                            <input type="email" id="confirm_email" name="confirm_email" required="required" maxlength="100" placeholder="Confirm email">
-                                        </li>
-                                        <li>
                                             <label class="sr-only required" for="register_password">Password</label>
                                             <input type="password" id="register_password" name="register_password" required="required" autocomplete="off" maxlength="100" placeholder="Password">
-                                        </li>
-
-                                        <li>
-                                            <label class="sr-only required" for="register_username">Username</label>
-                                            <input type="text" id="register_username" name="register_username"
-                                                   required="required" autocapitalize="off" autocorrect="off"
-                                                   autocomplete="off" maxlength="30" placeholder="Username"
-                                                   data-msg-minlength="Your username is too short."
-                                                   data-msg-remote="We're sorry, that username is not available."
-                                                   data-msg-required="Please choose a username."
-                                                   data-msg-nowhitespace="Spaces are not allowed in usernames."
-                                                   data-msg-forbiddenchars="Your username contains characters that we do not allow"
-                                                   data-rule-nowhitespace="true"
-                                                   data-rule-forbiddenchars="^[a-zA-Z0-9_\-\+]+$"
-                                                   data-rule-minlength="4"
-                                                   data-rule-remote="/int/xhr/json/isUsernameAvailable.php">
                                         </li>
 
                                         <li id="li-dob" class="controls-dob" data-error-age="Sorry, but you don't meet Spotify's age requirements.">
@@ -154,8 +134,7 @@
                                         <li id="li-thirdparty" class="thirdparty">
                                             <label for="register_thirdparty" class="checkbox">
                                                 <input type="checkbox" required="required" id="register_thirdparty" name="thirdpartyemail"  class="thirdparty" value="true" data-msg-required="Please share">
-                                                Share my restration data with Gettravely content providers for
-                                                marketingpurposes.
+                                                Share my registration data with Gettravely content providers for marketing purposes.
                                             </label>
                                         </li>
 
@@ -165,8 +144,7 @@
                                         </li>
 
                                         <li class="li-terms-notick">
-                                            <p class="notice">By clicking on Sign up, you agree to <a href="/int/legal/end-user-agreement/" target="_blank">Gettrevely terms & conditions</a> and <a href="/int/legal/privacy-policy/"
-                                                                                      target="_blank">privacy policy</a>
+                                            <p class="notice">By clicking on Sign up, you agree to <a href="/int/legal/end-user-agreement/" target="_blank">Gettravely terms & conditions</a> and <a href="/int/legal/privacy-policy/" target="_blank">privacy policy</a>
                                             </p>
                                         </li>
                                     </ul>
