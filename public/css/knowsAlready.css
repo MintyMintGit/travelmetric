@@ -67,7 +67,11 @@ button.specButton {
 }
 button.specButton:hover {
     background-color: #00ccff!important;
-    color: #ffffff!important;
+    opacity: 0.8;
+    color: white;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 .btn-default.active, .btn-default:active {
     background-color: #00ccff!important;

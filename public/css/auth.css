@@ -254,6 +254,13 @@ fieldset {
     height: 42px;
     border: none;
 }
+#saveNewForm:hover {
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    opacity: 0.8;
+    color: white;
+}
 .reboot .checkbox.control-inline+.checkbox.control-inline, .reboot .radio.control-inline+.radio.control-inline {
     margin-left: 1em;
 }
