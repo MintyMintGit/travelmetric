@@ -44,16 +44,6 @@ header h3 {
 .questionnaire h2 {
     font-weight:600;
 }
-a#select-button-signup-fb:hover {
-    opacity: 0.8;
-    color: white;
-}
-a#select-button-signup-fb,
-a#select-button-signup-fb:hover {
-    -webkit-transition: 0.3s all ease-in-out;
-    -o-transition: 0.3s all ease-in-out;
-    transition: 0.3s all ease-in-out;
-}
 .someValues {
     display: flex;
     flex-direction: row;

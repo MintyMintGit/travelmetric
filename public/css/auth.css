@@ -315,3 +315,21 @@ fieldset {
 #js-register-with-email {
     margin-bottom: 146px;
 }
+a#select-button-signup-fb:hover {
+    opacity: 0.8;
+    color: white;
+}
+a#select-button-signup-fb,
+a#select-button-signup-fb:hover {
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+form#js-register-with-email input::placeholder {
+    color: #88898c ;
+    font-weight: lighter;
+}
+
+form#js-register-with-email input {
+    font-weight: bolder;
+}
