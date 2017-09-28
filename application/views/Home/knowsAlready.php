@@ -4,7 +4,7 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid" id="specContainer">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="<?php echo site_url('Home/index') ?>">
                     <img alt="Brand" src="/public/img/logo.png" width="119px" height="19px" style="margin-top: 41px; margin-left: 82px;">
                 </a>
             </div>
