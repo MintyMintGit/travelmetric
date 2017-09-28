@@ -20,7 +20,11 @@ $(function () {
     });
     $("#f_elem_city").autocomplete("option", "delay", 100);
     $("#getcitydetails").on('click', function (event) {
-        localStorage.setItem('knowsAlready', $("#f_elem_city").val().trim());
-        location.href = window.location.protocol + "//" + window.location.host + "/Auth";
+        var value = $("#f_elem_city").val().trim();
+        if(value) {
+            localStorage.setItem('knowsAlready', value);
+            location.href = window.location.protocol + "//" + window.location.host + "/Auth";
+        }
+
     });
 });

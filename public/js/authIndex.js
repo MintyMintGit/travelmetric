@@ -26,8 +26,3 @@ $(document).ready(function () {
     });
 
 });
-var onloadCallback = function () {
-    grecaptcha.render('html_element', {
-        'sitekey': '6LdBYjEUAAAAAF3ogQUhST5TM6xHeIdKKeydY1tZ'
-    });
-};

@@ -73,6 +73,9 @@ button.specButton:hover {
     -o-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
 }
+.btn-default:focus, .btn-default:hover {
+    background-color: #00ccff!important;
+}
 .btn-default.active, .btn-default:active {
     background-color: #00ccff!important;
     color: #ffffff!important;

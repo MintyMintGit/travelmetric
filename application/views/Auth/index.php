@@ -1,5 +1,11 @@
 <link href="/public/css/auth.css" rel="stylesheet">
-
+<script>
+    var onloadCallback = function () {
+        grecaptcha.render('html_element', {
+            'sitekey': '6LeRuzEUAAAAANQ0F6K5-p_5VIPR9OL5ugjVsTKS'
+        });
+    };
+</script>
 <div class="wrap reboot">
     <div class="sign-up">
         <div class="l-signup-header">
