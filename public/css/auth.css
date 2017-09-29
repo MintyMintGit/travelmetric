@@ -120,6 +120,8 @@ fieldset {
     display: block;
     margin-bottom: 18px;
     text-align: left;
+    color: #000000;
+    font-size: .9375em;
 }
 .reboot label {
     color: #000000;
@@ -332,4 +334,10 @@ form#js-register-with-email input::placeholder {
 
 form#js-register-with-email input {
     font-weight: bolder;
+}
+#register-dob label.has-error {
+    display: none;
+}
+.errors_financial {
+    display: none;
 }

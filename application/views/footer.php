@@ -12,7 +12,6 @@
 <!-- Include Date Range Picker -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
-<script src="/public/js/jquery.validate.min.js"></script>
 <?php
 
     if(isset($js_to_load) && $js_to_load != '') {

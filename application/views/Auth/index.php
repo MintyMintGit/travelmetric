@@ -133,23 +133,27 @@
                                                            data-msg-max="Sorry, but you don't meet Spotify's age requirements.">
                                                 </div>
                                             </div>
-                                            <ul id="errors_financial" class="messages"></ul>
+                                            <ul class="errors_financial messages">
+                                                <li>When were you born?</li>
+                                            </ul>
                                         </li>
                                         <li id="li-gender" class="gender">
                                             <label class="sr-only">Gender:</label>
-                                            <label for="register-male" class="radio control-inline">
+                                            <label for="register-male" class="radio control-inline controls">
                                                 <input type="radio" id="register-male" name="gender" required="required"
                                                        class="gender" data-msg-required="Please indicate your gender."
                                                        value="male">
                                                 Male
                                             </label>
-                                            <label for="register-female" class="radio control-inline">
+                                            <label for="register-female" class="radio control-inline controls">
                                                 <input type="radio" id="register-female" name="gender"
                                                        required="required" class="gender"
                                                        data-msg-required="Please indicate your gender." value="female">
                                                 Female
                                             </label>
-                                            <ul id="errors_financial" class="messages"></ul>
+                                            <ul class="messages errors_financial">
+                                                <li>Please indicate your gender.</li>
+                                            </ul>
                                         </li>
 
                                         <li id="li-thirdparty" class="thirdparty">
