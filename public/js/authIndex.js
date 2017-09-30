@@ -55,7 +55,7 @@ $(document).ready(function () {
             });
             return;
         }
-
+        checkEmail();
         var response = grecaptcha.getResponse();
         if (response.length > 0) {
             $("#js-register-with-email input").each(function (indx, element) {
@@ -75,4 +75,17 @@ $(document).ready(function () {
             $("#li-dob .errors_financial").show();
         }
     }
+    function checkEmail() {
+
+        var email = document.getElementById('register_email');
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+        if (!filter.test(email.value)) {
+            $(email).parent().append("<label id='wrongEmail' for=\"register_email\" class=\"has-error\">Please provide a valid email address</label>");
+            $(email).on('change', function () {
+                $("#wrongEmail").remove();
+            });
+            return false;
+        }
+    };
 });
