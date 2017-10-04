@@ -341,3 +341,6 @@ form#js-register-with-email input {
 .errors_financial {
     display: none;
 }
+.errors_financial li, .has-error{
+    color: red!important;
+}
