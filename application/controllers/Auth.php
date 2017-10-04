@@ -112,6 +112,9 @@ class Auth extends CI_Controller
             }
         }
         ksort($savingArray);
+        $savingArray[15] = $_SERVER['REMOTE_ADDR'];
+        $savingArray[16] = date('Y-m-d H:i:s');
+
         if (!file_exists(FILE_NAME)) {
             $headerString = array();
             $headerString[] = "Who are your travel companions?";
@@ -129,6 +132,8 @@ class Auth extends CI_Controller
             $headerString[] = "register_dob_year";
             $headerString[] = "gender";
             $headerString[] = "Share my restration data with Gettravely content providers for marketingpurposes";
+            $headerString[] = "IP address";
+            $headerString[] = "Time Stamp";
 
 
             $fp = fopen(FILE_NAME, 'a');
